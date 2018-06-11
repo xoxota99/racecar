@@ -1,4 +1,5 @@
-- setup-file: {local-name: /opt/ros/kinetic/setup.sh}
-- git: {local-name: src/racecar,         version: master,        uri: 'https://github.com/mit-racecar/racecar.git'}
-- git: {local-name: src/vesc,            version: master,        uri: 'https://github.com/mit-racecar/vesc.git'}
-- git: {local-name: src/racecar-simulator,            version: master,        uri: 'https://github.com/mit-racecar/racecar-simulator.git'}
+- git: {local-name: racecar,               version: RacecarJTransitory,        uri: 'https://github.com/RacecarJ/racecar.git'}
+- git: {local-name: vesc,                  version: RacecarJTransitory,        uri: 'https://github.com/RacecarJ/vesc.git'}
+- git: {local-name: racecar-controllers,   version: master,        uri: 'https://github.com/RacecarJ/racecar-controllers.git'}
+- git: {local-name: zed-ros-wrapper,       version: master,                     uri: 'https://github.com/stereolabs/zed-ros-wrapper.git'}
+
